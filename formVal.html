@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sty.css">
+    <script src="form.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <form action="/submit" id="form">
+            <h1>Register</h1>
+            <div class="inp_grp">
+                <label for="">Username</label>
+                <input type="text" id="username" name="username">
+                <div class="error"></div>
+            </div>
+            <div class="inp_grp">
+                <label for="">Email</label>
+                <input type="text" id="email" name="email">
+                <div class="error"></div>
+            </div>
+            <div class="inp_grp">
+                <label for="">Password</label>
+                <input type="password" id="password" name="password">
+                <div class="error"></div>
+            </div>
+            <div class="inp_grp">
+                <label for="">Confirm Password</label>
+                <input type="password" id="c_password" name="c_password">
+                <div class="error"></div>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
